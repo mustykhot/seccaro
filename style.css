@@ -121,12 +121,13 @@ body {
 .selected + .arrow-down-wrapper {
     opacity: 1;
 }
+
 .butcont button{
     padding: 10px;
     border: transparent;
     background-color: turquoise;
     border-radius: 7px;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 @media screen and (max-width: 768px) {
     body {
@@ -161,5 +162,17 @@ body {
 
     .show-section {
         margin-top: 40px;
+    }
+    .butcont{
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .butcont button{
+        padding: 10px;
+        border: transparent;
+        background-color: turquoise;
+        border-radius: 7px;
+        margin-right:0;
     }
 }
